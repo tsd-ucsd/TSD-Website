@@ -1,2 +1,2 @@
-# TSD-Website
+# UCSD TSD Website
 Team Website!
