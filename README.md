@@ -24,4 +24,5 @@ Ranked by priority
                 OR
       Edit/Alter the code that is in the official TSD github [(documentation)](https://docs.google.com/document/d/145GG1HKFKvablGzENxLJHERmyHpwFhD4b2t5laEOHgY/edit)
       <!-- email asl006@ucsd.edu if you have questions about it --> 
+- [ ] fix all of the css pages, they are all very repetative and need editing 
 - [x] Outline/begin documentation for the website
