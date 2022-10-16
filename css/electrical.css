@@ -3,14 +3,10 @@
     padding: 0;
 }
 
-.padding{
-    padding-top: 50px;
-}
-
 .header{
     padding-top: 100px;
 }
 
-.centering{
-    padding-top: 50px;
+.center{
+    text-align: center;
 }

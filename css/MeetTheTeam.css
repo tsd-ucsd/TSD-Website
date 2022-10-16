@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    padding-top: 165px;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+.btn-lg{
+    margin-top:  5px;
+}
