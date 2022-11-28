@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  margin: 0;
   scroll-padding-top: calc(4.5rem - 1px);
 }
 
