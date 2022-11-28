@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 /*slide show*/
 
 *{box-sizing:border-box}
@@ -108,21 +107,21 @@
     padding-left: 10%;
 }
 
-h1{
+h1 {
     font-size: 300%;
 }
 
-h4{
+h4 {
     font-size: 150%;
     font-family: 'Arial',cursive;
 }
 
-.links a{
+.links a {
     display: inline-block;
     justify-content: space-between;
     align-items: center;
     padding-left: 5%;
-    padding-right: 5%
+    padding-right: 5%;
     color: navy;
     font-size: 150%;
     text-decoration: none;

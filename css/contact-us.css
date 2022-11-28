@@ -1,39 +1,34 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.heading{
+.heading {
     padding-top: 165px;
 }
 
-header{
+header {
     background-color: lightblue;
     padding-bottom: 10px;
 }
 
-.map{
+.map {
     background-color: lightblue;
 }
 
-.locationBox{
+.locationBox {
     background-color: lightgoldenrodyellow;
     border-bottom: 5px solid black;
     border-top:  5px solid black;
 }
 
-.locationBox{
+.locationBox {
     padding-top: 10px;
 }
 
-.tiny-font{
+.tiny-font {
     font-size: small;
 }
 
-.space{
+.space {
     padding-top: 10px;
 }
 
-.email{
-    align: center;
+.email {
+    text-align: center;
 }

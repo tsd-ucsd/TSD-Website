@@ -1,16 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.padding{
+.padding {
     padding-top: 50px;
 }
 
-.header{
+.header {
     padding-top: 100px;
 }
 
-.centering{
+.centering {
     padding-top: 50px;
 }
