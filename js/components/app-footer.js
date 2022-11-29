@@ -11,11 +11,11 @@ template.innerHTML = `
           <span>tsd_ucsd</span>
         </div> 
         <div class="col p-0 mx-auto">
-          <img src="/assets/images/footer/linkedin-link.svg" width="34px" height="26px" />
+          <img src="/assets/images/footer/linkedin-link.svg" />
           <span>triton-solar-decathlon</span>
         </div>
         <div class="col p-0 text-center">
-          <img src="/assets/images/app-logo.svg" />
+          <img src="/assets/images/app-logo.svg" height="60" width="60" />
           <p class="m-0">Copyright © TSD 2022</p>
         </div>
         <div class="col p-0 text-center">
@@ -35,7 +35,7 @@ template.innerHTML = `
           <span>tsd_ucsd</span>
         </div> 
         <div class="col-3 p-0 mx-auto">
-          <img src="/assets/images/footer/linkedin-link.svg" width="34px" height="26px" />
+          <img src="/assets/images/footer/linkedin-link.svg" />
           <span>triton-solar-decathlon</span>
         </div>
         <div class="col-3 p-0 text-center">
@@ -47,7 +47,7 @@ template.innerHTML = `
           <span>tsd_ucsd</span>
         </div>
         <div class="col mt-4 text-center">
-          <img src="/assets/images/app-logo.svg" />
+          <img src="/assets/images/app-logo.svg" height="60" width="60" />
           <p class="m-0">Copyright © TSD 2022</p>
         </div>
       </div>
