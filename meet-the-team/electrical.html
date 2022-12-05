@@ -14,222 +14,127 @@
         <!-- Bootstrap Overrides-->
         <link rel="stylesheet" href="/css/bootstrap-overrides.css" type="text/css" />
         <link rel="stylesheet" href="/css/layouts.css" type="text/css">
-        <link rel="stylesheet" href="/css/meet-the-team/electrical.css" type="text/css" />
+        <link rel="stylesheet" href="/css/meet-the-team/index.css" type="text/css" />
+        <style type="text/css">
+            .btn-circle.btn-xl {
+                width: 100px;
+                height: 100px;
+                padding: 13px 18px;
+                border-radius: 60px;
+                font-size: 15px;
+                text-align: center;
+            }
+        </style>
         <script src="/js/components/app-header.js" type="module"></script>
         <script src="/js/components/app-footer.js" type="module"></script>
     </head>
     <body id="page-top">
         <app-header></app-header>
+            <div class="page-hero-image index-hero ">
+                <div class="page-hero-text">
+                    <h1>Meet the Team</h1>
+                </div>
+            </div>
 
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
-            <div class="container">
-                <!-- Portfolio Section Heading-->
-                <div class="header">
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">The Electrical Team</h2>
-                <br>
-                <div class = "center">
-                    <h3> Click on each member to get to know them! </h3>
-                </div>
-                </div>
-                <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
-                    <!-- Portfolio Item 1 Anne-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="/assets/images/meet-the-team/anne.jpeg" alt="..." />
-                        </div>
+            <!-- Page Content-->
+            <div class="page-content">
+                <div class="index-subheader-content">
+                    <div class="index-subheader-content-column">
+                        <a href="electrical.html">
+                            <img src="/assets/images/meet-the-team/teams/Electrical-active.svg"></img>
+                        </a>
+                        <h3>Electrical</h3>
                     </div>
-                    <!-- Portfolio Item 2 Anne-Marie-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="/assets/images/meet-the-team/anne-marie.jpg" alt="..." />
-                        </div>
+                    
+                    <div class="index-subheader-content-column">
+                        <a href="media.html">
+                            <img src="/assets/images/meet-the-team/teams/Media.svg"></img>
+                        </a>
+                        <h3>Media</h3>
                     </div>
-                    <!-- Portfolio Item 3 Andy-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="/assets/images/meet-the-team/andy.jpg" alt="..." />
-                        </div>
+                    
+                    <div class="index-subheader-content-column">
+                        <a href="structural.html">
+                            <img src="/assets/images/meet-the-team/teams/Structural.svg"></img>
+                        </a>
+                        <h3>Structural</h3>
                     </div>
-                    <!-- Portfolio Item 4 Christina-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="/assets/images/meet-the-team/christina.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5 Conner-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="/assets/images/meet-the-team/conner.JPG" alt="..." />
-                        </div>
+                    <div class="index-subheader-content-column">
+                        <a href="architecture.html">
+                            <img src="/assets/images/meet-the-team/teams/Architecture.svg"></img>
+                        </a>
+                        <h3>Architecture</h3>
                     </div>
                 </div>
-            </div>
-        </section>
-        </section>
-        
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1 Anne-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Anne Lin</h2>
-                                    <br>
-                                    <h3> Electrical Co-Lead </h3>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="/assets/images/meet-the-team/anne.jpeg" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">My name is Anne and I am an engineering physics major, in the electrical and computer engineering department, at the University of California, San Diego. I am interested in battery design and material synthesis to advance energy storage. I am passionate about making it easier for people to reduce their carbon footprint so that more people are inclined to do so. </p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <!-- <i class="fas fa-xmark fa-fw"></i> Close Window-->
-                                        <a class="btn btn-lg btn-primary" href="https://www.linkedin.com/in/anne-lin118193/">LinkedIn</a>
-                                    </button>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <a class="btn btn-lg btn-primary" href="https://anne118193.github.io/">Personal Website</a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                <div class="index-subheader-content">
+                    <div class="index-subheader-content-column">
+                        <a href="mechanical.html">
+                            <img src="/assets/images/meet-the-team/teams/Mechanical and Plumbing.svg"></img>
+                        </a>
+                        <h3>Mechanical</h3>
+                        <h3>+</h3>
+                        <h3>Plumbing</h3>
                     </div>
+                    
+                    <div class="index-subheader-content-column">
+                        <a  href="finance.html">
+                            <img src="/assets/images/meet-the-team/teams/Finance and Marketing.svg"></img>
+                        </a>
+                        <h3>Finance </h3>
+                        <h3>+</h3>  
+                        <h3>Marketing</h3>
+                    </div>
+                    
                 </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 2 Anne-Marie-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Anne-Marie Shui</h2>
-                                    <br>
-                                    <h3> Electrical Co-Lead </h3>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="images/TeamMem/AnneMarie.jpg" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">My name is Anne-Marie Shui, an Electrical Engineering major at UC San Diego. I am pursuing the overall mitigation of human impact on the environment, particularly the integration of renewable energies and sustainable practices within society on a broader scale. In my free time I enjoy making music in choir along with on the piano and other instruments~
-                                    I look forward to working with teammates on the Solar Decathlon and gaining practical experience understanding the multifaceted considerations within sustainable design and how it applies to power generation and storage on a professional level!</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <!-- <i class="fas fa-xmark fa-fw"></i> Close Window-->
-                                        <a class="btn btn-lg btn-primary" href="https://www.linkedin.com/in/anne-marie-shui-57770421a/">LinkedIn</a>
-                                    </button>
-                                </div>
-                            </div>
+                <div class="team-section">
+                    <section class="member-section">
+                        <img src="/assets/images/meet-the-team/Anne Lin.jpg"/>
+                        <div class="member-section-text-content">
+                            <h2>ANNE LIN</h2>
+                            <h3>Electrical co-lead</h3>
+                            <p>My name is Anne and I am an engineering physics major, in the electrical and computer engineering department, at the University of California, San Diego. I am interested in battery design and material synthesis to advance energy storage. I am passionate about making it easier for people to reduce their carbon footprint so that more people are inclined to do so.
+                            </p>
                         </div>
-                    </div>
+                    </section>
+                    <section class="member-section">
+                        <img src="/assets/images/meet-the-team/Anne-Marie Shui.jpg"/>
+                        <div class="member-section-text-content">
+                            <h2>ANNE-MARIE SHUI</h2>
+                            <h3>Electrical co-lead</h3>
+                            <p>My name is Anne-Marie Shui, an Electrical Engineering major at UC San Diego. I am pursuing the overall mitigation of human impact on the environment, particularly the integration of renewable energies and sustainable practices within society on a broader scale. In my free time I enjoy making music in choir along with on the piano and other instruments~ I look forward to working with teammates on the Solar Decathlon and gaining practical experience understanding the multifaceted considerations within sustainable design and how it applies to power generation and storage on a professional level!
+                            </p>
+                        </div>
+                    </section>
+                    <section class="member-section">
+                        <img src="/assets/images/meet-the-team/Andy Mai.jpg"/>
+                        <div class="member-section-text-content">
+                            <h2>ANDY MAI</h2>
+                            <h3>Energy modeling</h3>
+                            <p>Andy is a 5th year Electrical Engineering student with an emphasis on Power Systems at UCSD. He heard about the Triton Solar Decathlon when a fellow member advertised the organization in one of his Signals classes. In his spare time, Andy likes to play sports such as basketball, badminton, and is also a team member of the university’s dragon boat team! During a typical school day, you will most likely find Andy at Geisel Library studying/fooling around with his dragon boat buddies, or chomping down a beer-battered fish burrito from Rubios inside Price Center!
+                            </p>
+                        </div>
+                    </section>
+                    <section class="member-section">
+                        <img src="/assets/images/meet-the-team/Christina Mai.jpg"/>
+                        <div class="member-section-text-content">
+                            <h2>CHRISTINA MAI</h2>
+                            <h3>Energy modeling</h3>
+                            <p>Christina Mai is a third year majoring in Electrical Engineering with an interest in sustainable energy and new technologies. Drawn by the idea of building a house that would potentially impact a local San Diego community, she joined TSD. If she isn’t exploring San Diego, kayaking, or playing badminton in her spare time, she’s probably being a potato.
+                            </p>
+                        </div>
+                    </section>
+                    <section class="member-section">
+                        <img src="/assets/images/meet-the-team/Conner Hsu.jpg"/>
+                        <div class="member-section-text-content">
+                            <h2>CONNER HSU</h2>
+                            <h3>ADD ROLE</h3>
+                            <p>Hello! I am an electrical engineering major at UCSD. I like using MATLAB and going rock climbing (not at the same time though).
+                            </p>
+                        </div>
+                    </section>
                 </div>
             </div>
-        </div>
-        <!-- Portfolio Modal 3 Andy-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Andy Mai</h2>
-                                    <br>
-                                    <h3> Energy Modeling </h3>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="/assets/images/meet-the-team/andy.jpg" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Andy is a 5th year Electrical Engineering student with an emphasis on Power Systems at UCSD. He heard about the Triton Solar Decathlon when a fellow member advertised the organization in one of his Signals classes. In his spare time, Andy likes to play sports such as basketball, badminton, and is also a team member of the university’s dragon boat team! During a typical school day, you will most likely find Andy at Geisel Library studying/fooling around with his dragon boat buddies, or chomping down a beer-battered fish burrito from Rubios inside Price Center!</p>
-                                    <<button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <!-- <i class="fas fa-xmark fa-fw"></i> Close Window-->
-                                        <a class="btn btn-lg btn-primary" href="https://www.linkedin.com/in/andy-mai-8b787419a/">LinkedIn</a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 4 Christina-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Christina Mai</h2>
-                                    <br>
-                                    <h3> Energy Modeling </h3>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="/assets/images/meet-the-team/christina.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Christina Mai is a third year majoring in Electrical Engineering with an interest in sustainable energy and new technologies. Drawn by the idea of building a house that would potentially impact a local San Diego community, she joined TSD. If she isn’t exploring San Diego, kayaking, or playing badminton in her spare time, she’s probably being a potato.</p>
-                                    <!--
-                                        Christina has not given us the link to her linkedin
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <a class="btn btn-lg btn-primary" href="https://www.linkedin.com">LinkedIn</a>
-                                    </button>
-                                    -->
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Portfolio Modal 5-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
-                    <div class="modal-body text-center pb-5">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Conner Hsu</h2>
-                                    <br>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="/assets/images/meet-the-team/conner.JPG" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Hello! I am an electrical engineering major at UCSD. I like using MATLAB and going rock climbing (not at the same time though). </p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
-                                        <!-- <i class="fas fa-xmark fa-fw"></i> Close Window-->
-                                        <a class="btn btn-lg btn-primary" href="https://www.linkedin.com/in/conner-hsu-69722415b/">LinkedIn</a>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
+
         <app-footer></app-footer>
+    </body>
 </html>
