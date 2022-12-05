@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/about.css" type="text/css" />
         <script src="js/components/app-header.js" type="module"></script>
         <script src="js/components/app-footer.js" type="module"></script>
+        <script src="js/scripts/about.js" type="module"></script>
     </head>
     <body id="page-top">
         <app-header></app-header>
@@ -26,35 +27,83 @@
         </div>
         
         <div class="page-content">
-            <div class="flex column padding px-5 py-5">
-                <div class="flex row justify-content-center">
-                    <img src="assets/images/about/about-img-1.jpg" style="height: 372px; width:650px;" />
-                    <div style="width: 50%; padding-left: 100px;">
-                        <b style="font-size: 28px; color: #182B49;">Background</b>
-                        <p style="margin-top:45px; line-height: 45px; width: 620px;">
+            <div class="about-subheader">
+                <h2>Sustainable Development Goals</h2>
+                <div class="about-subheader-content">
+                    <div class="about-subheader-content__column">
+                        <img id="affordable-img" src="/assets/images/about/about-subheader-img-1.svg" alt="about-subheader-img-1" />
+                        <h3>Affordable And Clean Energy</h3>
+                    </div>
+                    <hr>
+                    <div class="about-subheader-content__column">
+                        <img id="industry-img" src="/assets/images/about/about-subheader-img-2.svg" alt="about-subheader-img-2" />
+                        <h3>Industry, Innovation And Infrastructure</h3>
+                    </div>
+                    <hr>
+                    <div class="about-subheader-content__column">
+                        <img id="sustainable-img" src="/assets/images/about/about-subheader-img-3.svg" alt="about-subheader-img-3" />
+                        <h3>Sustainable Cities and Communities</h3>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="page-sections">
+                <section class="page-section">
+                    <img src="assets/images/about/about-img-1.jpg" />
+                    <div class="page-section__text-content">
+                        <h2>Background</h2>
+                        <p>
                             The goal of what we want to do as a team is address the housing crisis in San Diego, and show that sustainable and affordable housing is very possible. We expect our structure to be rougly 18ft tall with about 1,000 sqft of living space. We are focusing on creating low-cost housing solutions that are healthy, a joy to inhibit, and are sustainable. 
                         </p>
                     </div>
-                </div>
-                <div class="flex row justify-content-center" style="padding-top:75px;">
-                    <div style="width: 50%; padding-right: 100px;">
-                        <b style="font-size: 28px; color: #182B49;">Our Approach</b>
-                        <p style="margin-top:45px; line-height: 45px;">
+                </section>
+                <section class="page-section">
+                    <div class="page-section__text-content">
+                        <h2>Our Approach</h2>
+                        <p>
                             To accomplish this, we are taking a holistic approach by incorporating cutting-edge research on off-gridding, energy efficiency, solar panels, reflective material to combat heat, and incorporating advanced design and manufacturing to keep costs down. Ultimately, we hope our modular prefabricated microunits can be a beneficial addition to communities like Logan Heights in San Diego. We are working with existing community organizations to see what's needed.
                         </p>
                     </div>
-                    <img src="assets/images/about/about-img-2.jpg" style="height: 372px; width:650px;" />
-                </div>
-                <div class="flex row justify-content-center" style="padding-top:75px;">
-                    <img src="assets/images/about/about-img-3.jpg" style="height: 372px; width:650px;" />
-
-                    <div style="width: 50%; padding-left: 100px;">
-                        <b style="font-size: 28px; color: #182B49;">The Competition</b>
-                        <p style="margin-top:25px; line-height: 45px;">
+                    <img src="assets/images/about/about-img-2.jpg" />
+                </section>
+                <section class="page-section">
+                    <img src="assets/images/about/about-img-3.jpg" />
+                    <div class="page-section__text-content">
+                        <h2>The Competition</h2>
+                        <p>
                             The Orange County Sustainability Decathlon is an international collegiate competition challenging students to integrate high-performance design and inspire the industry through innovative solutions. The UC San Diego team is one of 17 teams competiting in the 2023 Sustainability Decathlon at the Orange County Fairgrounds. Our team is working with the Greater Victory Church in the Logan Heights community, Jacobs School of Engineering, Urban Studies and Planning, Resource Management and Planning, Facilities Management, and industry partners.
                         </p>
                     </div>
-                </div>
+                </section>
+            </div>
+            <div class="page-sections mobile">
+                <section class="page-section">
+                    <img src="assets/images/about/about-img-1.jpg" />
+                    <div class="page-section__text-content">
+                        <h2>Background</h2>
+                        <p>
+                            The goal of what we want to do as a team is address the housing crisis in San Diego, and show that sustainable and affordable housing is very possible. We expect our structure to be rougly 18ft tall with about 1,000 sqft of living space. We are focusing on creating low-cost housing solutions that are healthy, a joy to inhibit, and are sustainable. 
+                        </p>
+                    </div>
+                </section>
+                <section class="page-section">
+                    <img src="assets/images/about/about-img-2.jpg" />
+                    <div class="page-section__text-content">
+                        <h2>Our Approach</h2>
+                        <p>
+                            To accomplish this, we are taking a holistic approach by incorporating cutting-edge research on off-gridding, energy efficiency, solar panels, reflective material to combat heat, and incorporating advanced design and manufacturing to keep costs down. Ultimately, we hope our modular prefabricated microunits can be a beneficial addition to communities like Logan Heights in San Diego. We are working with existing community organizations to see what's needed.
+                        </p>
+                    </div>
+                </section>
+                <section class="page-section">
+                    <img src="assets/images/about/about-img-3.jpg" />
+                    <div class="page-section__text-content">
+                        <h2>The Competition</h2>
+                        <p>
+                            The Orange County Sustainability Decathlon is an international collegiate competition challenging students to integrate high-performance design and inspire the industry through innovative solutions. The UC San Diego team is one of 17 teams competiting in the 2023 Sustainability Decathlon at the Orange County Fairgrounds. Our team is working with the Greater Victory Church in the Logan Heights community, Jacobs School of Engineering, Urban Studies and Planning, Resource Management and Planning, Facilities Management, and industry partners.
+                        </p>
+                    </div>
+                </section>
             </div>
         </div>
 
