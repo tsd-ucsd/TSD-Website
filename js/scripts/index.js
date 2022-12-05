@@ -25,3 +25,19 @@ prevSlideButton.addEventListener('click', () => {
     slide.style.transform = `translateX(${100 * (index - currentSlide)}%)`;
   })
 });
+
+const sponsorImage = document.querySelector('#sponsor-img');
+const contactImage = document.querySelector('#contact-img');
+const aboutImage = document.querySelector('#about-img');
+
+sponsorImage.addEventListener('click', () => {
+  window.location.href = 'sponsors.html';
+});
+
+contactImage.addEventListener('click', () => {
+  window.location.href = 'contact-us.html';
+});
+
+aboutImage.addEventListener('click', () => {
+  window.location.href = 'about.html';
+});

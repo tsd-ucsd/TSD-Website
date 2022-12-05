@@ -36,6 +36,7 @@ h2, h3 {
   max-width: 136px;
   height: 50%;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .about-subheader-content__column > h3 {
