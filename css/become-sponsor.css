@@ -1,0 +1,189 @@
+.h1 {
+  font-family: 'Montserrat'; /*why is font not showing up??*/
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;   
+  color: #182B49;
+}
+
+.h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #182B49;
+}
+
+@media (max-width: 428px) {
+  .h1 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+  }
+  .h2 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+  }
+  .h3 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+  }
+}
+
+.sponsorUs {
+  position: absolute;
+  width: 627px;
+  height: 78px;
+  left: 550px;
+  top: 244px;
+}
+
+.sponsorUsImage {
+  position: absolute;
+  width: 1728px;
+  height: 374px;
+  left: 0px;
+  top: 96px;
+  background: rgba(24, 43, 73, 0.25);
+  background-image: url("/assets/images/become-sponsor/Rectangle112.png");
+}
+
+.helpUs {
+  position: absolute;
+  width: 1135px;
+  height: 39px;
+  left: 297px;
+  top: 557px;
+}
+
+.partnersWelcome {
+  position: absolute;
+  width: 1344px;
+  height: 22px;
+  left: 192px;
+  top: 614px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+
+.name {
+  position: absolute;
+  width: 170px;
+  height: 39px;
+  left: 192px;
+  top: 719px;
+}
+
+.nameBox {
+  position: absolute;
+  width: 567px;
+  height: 60px;
+  left: 192px;
+  top: 776px;
+  background: #FFFFFF;
+  box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.email {
+  position: absolute;
+  width: 95px;
+  height: 39px;
+  left: 973px;
+  top: 719px;
+}
+
+.emailBox {
+  position: absolute;
+  width: 563px;
+  height: 60px;
+  left: 973px;
+  top: 776px;
+  background: #FFFFFF;
+  box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.subject {
+  position: absolute;
+  width: 128px;
+  height: 39px;
+  left: 192px;
+  top: 876px;
+}
+
+.subjectBox {
+  position: absolute;
+  width: 1344px;
+  height: 327px;
+  left: 192px;
+  top: 933px;
+  background: #FFFFFF;
+  box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.contactButtonRadius {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: 5px solid #182B49;
+  border-radius: 50px;
+}
+
+.contactButton {
+  position: absolute;
+  left: 27.62%;
+  right: 27.62%;
+  top: 18.87%;
+  bottom: 16.98%;
+}
+
+.backgroundImage1 {
+  position: absolute;
+  width: 298px;
+  height: 482px;
+  left: 1450px;
+  top: 470px;
+  background: url(BlackEarthHourPoster.png);
+}
+
+.backgroundImage2 {
+  position: absolute;
+  width: 298px;
+  height: 482px;
+  left: 298px;
+  top: 1794px;
+  background: url(BlackEarthHourPoster.png);
+  transform: rotate(-180deg);
+}
