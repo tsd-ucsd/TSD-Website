@@ -20,55 +20,85 @@
     <body id="page-top">
         <app-header></app-header>
 
-        <div class="contactUsImage"></div>
-        <div class="contactUs"><h1>Contact Us</h1></div>
-
-        <div class="page-content">
-            <div class ="loveToHear"><h2>We would love to hear from you</h2></div>
-            <p class="haveQuestion">Have a question? Want to get in touch? Fill out the contact form and we'll do our best to get back to you in a timely manner.</p>
-
-            
-            <form>
-                <h2><label for="full-name" class="name">Full Name</label></h2>
-                <input type="text" id="full-name" name="full-name" value="Your Name" class="nameBox">
-    
-                <h2><label for="email" class="email">Email</label></h2>
-                <input type="text" id="email" name="email" value="Your Email" class="emailBox">
-    
-                <br>
-    
-                <h2><label for="subject" class="subject">Subject</label></h2>
-                <input type="text" id="subject" name="subject" value="Type Your Subject" class="subjectBox1">
-    
-                <br>
-    
-                <textarea name="typeMessage" class="subjectBox2">Type message here.</textarea>
-            </form>
-
-
-            <h3><button class="contactButton contactButtonRadius">Contact Us</button></h3>
-
-            <div class="contactInfoSocial">
-                <h3>Contact Information & Social Medias</h3>
-            </div>
-
-            <div class="instaText">
-                <img class="instaIcon" src="/assets/images/footer/instagram-link.svg" />
-                <span>tsd_ucsd</span>
-            </div> 
-             <div class="linkedInText">
-                <img class="linkedInIcon" src="/assets/images/footer/linkedin-link.svg" width="34px" height="26px" />
-                <span>triton-solar-decathlon</span>
-            </div>
-            <div class="youTubeText">
-                <img class="youTubeIcon" src="/assets/images/footer/youtube-link.svg" />
-                <span>triton solar decathlon</span>
-            </div>
-            <div class="mailText">
-                <img class="mailIcon" src="/assets/images/footer/email-link.svg" />
-                <span>tsd_ucsd</span>
+        <div class="page-hero-image about-hero">
+            <div class="page-hero-text">
+                <h1>Contact Us</h1>
             </div>
         </div>
+
+        <div class="page-content">
+            <div class ="about-subheader">
+                <h2>We would love to hear from you</h2>
+                <p>Have a question? Want to get in touch? Fill out the contact form and we'll do our best to get back to you in a timely manner.</p>
+            </div>
+
+            <br>
+
+            <form>
+                <div class="wrapper">
+                    <div class="form-row">
+                        <h2><label for="name" class="flex-items name">Full Name</label></h2>
+                        <h2><label for="email" class="flex-items">Email</label></h2>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" id="name" value="Your Name" class="flex-input  nameBox">
+                        <input type="text" id="email" value="Your Email" class="flex-input">
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <h2><label for="subject">Subject</label></h2>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" id="subject" value="Type Your Subject" class="flex-input">
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <textarea name="typeMessage" class="flex-input" cols="70" rows="10">Type message here.</textarea>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <h3><button class="contactButtonRadius">Contact Us</button></h3>
+                    </div>
+                </div>
+            </form>
+
+            <br>
+
+            <div>
+                <h3 class="contact-info-header">Contact Information & Social Medias</h3>
+            </div>
+
+            <br>
+
+            <div class="row align-items-center">
+                <div class="col-3 mx-auto p-0 text-center">
+                  <a href="https://www.instagram.com/tsd_ucsd" target="_blank">
+                    <img src="/assets/images/contact/insta.png" />
+                    <span>tsd_ucsd</span>
+                  </a>
+                </div> 
+                <div class="col-3 p-0 mx-auto">
+                  <a href="https://www.linkedin.com/company/triton-solar-decathlon" target="_blank">
+                    <img src="/assets/images/contact/linkedin.png" />
+                    <span>triton-solar-decathlon</span>
+                  </a>
+                </div>
+                <div class="col-3 p-0 text-center">
+                  <img src="/assets/images/contact/youtube.png" />
+                  <span>triton solar decathlon</span>
+                </div>
+                <div class="col-3 p-0 text-center">
+                  <a href="mailto:test@test.com" target="_blank">
+                    <img src="/assets/images/contact/email.png" />
+                    <span>tsd_ucsd</span>
+                  </a>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
 
         <app-footer></app-footer>
     </body>

@@ -1,28 +1,43 @@
-var slideIndex = 1;
-showSlides(slideIndex);
+const homeImageSlides = document.querySelectorAll('.home-image-slide');
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+homeImageSlides.forEach((slide, index) => {
+  slide.style.transform = `translateX(${index * 100}%)`;
+})
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+let currentSlide = 0;
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+const nextSlideButton = document.querySelector('.carousel-nav-arrow.next-btn-icon');
+
+nextSlideButton.addEventListener('click', () => {
+  if (currentSlide === homeImageSlides.length - 1) currentSlide = 0;
+  else currentSlide++;
+  homeImageSlides.forEach((slide, index) => {
+    slide.style.transform = `translateX(${100 * (index - currentSlide)}%)`;
+  })
+});
+
+const prevSlideButton = document.querySelector('.carousel-nav-arrow.prev-btn-icon');
+
+prevSlideButton.addEventListener('click', () => { 
+  if (currentSlide === 0) currentSlide = homeImageSlides.length - 1;
+  else currentSlide--;
+  homeImageSlides.forEach((slide, index) => {
+    slide.style.transform = `translateX(${100 * (index - currentSlide)}%)`;
+  })
+});
+
+const sponsorImage = document.querySelector('#sponsor-img');
+const contactImage = document.querySelector('#contact-img');
+const aboutImage = document.querySelector('#about-img');
+
+sponsorImage.addEventListener('click', () => {
+  window.location.href = 'sponsors.html';
+});
+
+contactImage.addEventListener('click', () => {
+  window.location.href = 'contact-us.html';
+});
+
+aboutImage.addEventListener('click', () => {
+  window.location.href = 'about.html';
+});

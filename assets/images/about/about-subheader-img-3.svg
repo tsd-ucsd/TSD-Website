@@ -1,0 +1,23 @@
+<svg width="176" height="176" viewBox="0 0 176 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="4" y="4" width="168" height="168" rx="84" stroke="#182B49" stroke-width="8"/>
+<path d="M85.367 123.725H112.288M85.367 123.725V80.3775M85.367 123.725H58.902M112.288 123.725V92.2411M112.288 123.725H138.753V92.2411M85.367 80.3775V53H58.902V89.0471C58.7499 92.6974 58.902 84.0279 58.902 76.2709M85.367 80.3775L112.288 59.3881V92.2411M112.288 92.2411H138.753M138.753 92.2411V84.0279H121.87C119.589 84.0279 125.064 84.0279 125.977 84.0279M58.902 123.725H47.951M58.902 123.725V104.561M47.951 123.725H37V104.561M47.951 123.725V113.687M37 104.561H58.902M37 104.561L47.951 90.8722L58.902 104.561" stroke="black" stroke-width="4"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 67.5715 68.0577)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 67.5715 78.096)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 67.5715 88.1346)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 67.5715 98.1729)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 67.5715 108.211)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 76.6975 68.0577)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 94.0366 88.1346)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 94.0366 98.1729)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 103.162 98.1729)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 103.162 108.211)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 94.0366 108.211)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 121.414 105.474)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 130.54 105.474)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 103.162 88.1346)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 76.6975 78.096)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 76.6975 88.1346)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 76.6975 98.1729)" fill="black"/>
+<circle r="2.28146" transform="matrix(1 0 0 -1 76.6975 108.211)" fill="black"/>
+<path d="M119.133 84C119.133 82.8954 120.028 82 121.133 82H121.87V86H121.133C120.028 86 119.133 85.1046 119.133 84Z" fill="black"/>
+</svg>

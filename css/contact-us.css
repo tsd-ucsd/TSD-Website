@@ -1,14 +1,22 @@
-.h1 {
-    font-family: 'Montserrat'; /*why is font not showing up??*/
+.about-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/contact/Rectangle113.png");
+}
+
+.about-subheader {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 78px;
-    /* identical to box height */
     color: #FFFFFF;
 }
 
-.h2 {
+h2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -17,7 +25,7 @@
     color: #182B49;
 }
 
-.h3 {
+h3 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -26,6 +34,61 @@
     text-align: center;
     color: #182B49;
 }
+
+p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 45px;
+    color: #868686;
+}
+
+.form-row {
+    display: flex;
+    align-items: left;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.flex-items {
+    padding-right: 50px;
+    width: 563px;
+}
+
+.flex-input {
+    background: #FFFFFF;
+    box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 45px;
+    color: #868686;
+}
+
+.name {
+    width: 450px;
+}
+
+.nameBox {
+    margin-right: 220px;
+}
+
+.contactButtonRadius {
+    align-items: right;
+    box-sizing: border-box;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 5px solid #182B49;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
 
 @media (max-width: 428px) {
     .h1 {
@@ -50,382 +113,4 @@
         line-height: 24px;
         text-align: center;
     }
-}
-
-.contactUsImage {
-   position: absolute;
-    width: 1728px;
-    height: 374px;
-    left: 0px;
-    top: 96px;
-    background: rgba(24, 43, 73, 0.25);
-    background-image: url("/assets/images/contact/Rectangle113.png");
-}
-
-@media (max-width: 428px) {
-    .contactUsImage {
-        position: absolute;
-        width: 429px;
-        height: 254px;
-        left: -1px;
-        top: 131px;
-    }  
-}
-
-.contactUs {
-    position: absolute;
-    width: 369px;
-    height: 78px;
-    left: 679px;
-    top: 244px;
-    color: #FFFFFF;
-}
-
-@media (max-width: 428px) {
-    .contactUs {
-        position: absolute;
-        width: 208px;
-        height: 44px;
-        left: 110px;
-        top: 236px;
-    }
-}
-
-.loveToHear {
-    position: absolute;
-    width: 536px;
-    height: 39px;
-    left: 596px;
-    top: 557px;
-    text-align: center;
-    color: #182B49;
-
-}
-
-@media (max-width: 428px) {
-    .loveToHear {
-        position: absolute;
-        width: 208px;
-        height: 44px;
-        left: 110px;
-        top: 236px;
-    }
-}
-
-.haveQuestion {
-    position: absolute;
-    width: 1116px;
-    height: 22px;
-    left: 306px;
-    top: 620px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #000000;
-}
-
-@media (max-width: 428px) {
-    .haveQuestion {
-        position: absolute;
-        width: 347px;
-        height: 135px;
-        left: 41px;
-        top: 507px;
-        /* Body */
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 45px;
-    }
-}
-
-.name {
-    position: absolute;
-    width: 170px;
-    height: 39px;
-    left: 192px;
-    top: 725px;
-}
-
-.nameBox {
-    /* Rectangle 78 */
-    position: absolute;
-    width: 567px;
-    height: 60px;
-    left: 192px;
-    top: 782px;
-    background: #FFFFFF;
-    box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 7px;
-}
-
-@media (max-width: 428px) {
-    .name {
-        position: absolute;
-        width: 128px;
-        height: 29px;
-        left: 40px;
-        top: 660px;
-    }
-
-    .nameBox {
-        position: absolute;
-        width: 347px;
-        height: 60px;
-        left: 40px;
-        top: 697px;
-    }
-}
-
-.email {
-    position: absolute;
-    width: 95px;
-    height: 39px;
-    left: 973px;
-    top: 725px;
-}
-
-.emailBox {
-    position: absolute;
-    width: 563px;
-    height: 60px;
-    left: 973px;
-    top: 782px;
-    background: #FFFFFF;
-    box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 7px;
-}
-
-@media (max-width: 428px) {
-    .email {
-        position: absolute;
-        width: 71px;
-        height: 29px;
-        left: 40px;
-        top: 781px;
-    }
-
-    .emailBox {
-        position: absolute;
-        width: 347px;
-        height: 60px;
-        left: 40px;
-        top: 815px;
-    }
-}
-
-.subject {
-    position: absolute;
-    width: 128px;
-    height: 39px;
-    left: 192px;
-    top: 882px;
-}
-
-.subjectBox1 {
-    position: absolute;
-    width: 567px;
-    height: 60px;
-    left: 192px;
-    top: 939px;
-    background: #FFFFFF;
-    box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 7px;
-}
-
-.subjectBox2 {
-    position: absolute;
-    width: 1344px;
-    height: 327px;
-    left: 192px;
-    top: 1022px;
-    background: #FFFFFF;
-    box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 7px;
-}
-
-@media (max-width: 428px) {
-    .subject {
-        position: absolute;
-        width: 96px;
-        height: 29px;
-        left: 40px;
-        top: 899px;
-    }
-
-    .subjectBox1 {
-        position: absolute;
-        width: 347px;
-        height: 60px;
-        left: 40px;
-        top: 935px;
-    }
-
-    .subjectBox2 {
-        position: absolute;
-        width: 347px;
-        height: 128px;
-        left: 40px;
-        top: 1007px;
-    }
-}
-
-.contactButtonRadius {
-    box-sizing: border-box;
-    position: relative;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    border: 5px solid #182B49;
-    border-radius: 50px;
-}
-
-.contactButton {
-    position: absolute;
-    left: 1200px;
-    top: 1400px;
-    width: 300px;
-    height: 50px;
-}
-
-@media (max-width: 428px) {
-    .contactButtonRadius {
-        position: absolute;
-        left: 0%;
-        right: 0%;
-        top: 0%;
-        bottom: 0%;
-    }
-    .contactButton {
-        position: absolute;
-        left: 0%;
-        right: 0%;
-        top: 20.51%;
-        bottom: 17.95%;
-    }
-}
-
-.contactInfoSocial {
-    position: absolute;
-    width: 534px;
-    height: 34px;
-    left: 192px;
-    top: 1511px;
-}
-
-.instaIcon {
-    position: absolute;
-    left: 11.11%;
-    right: 86.98%;
-    top: 78.75%;
-    bottom: 19.6%;
-    background: #182B49;
-}
-
-.instaText {
-    position: absolute;
-    width: 72px;
-    height: 45px;
-    left: 251px;
-    top: 1568px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 45px;
-    color: #000000;
-}
-
-.linkedInIcon {
-    position: absolute;
-    left: 24.48%;
-    right: 74.13%;
-    top: 78.9%;
-    bottom: 19.9%;
-    background: #182B49;
-}
-
-.linkedInText {
-    position: absolute;
-    width: 176px;
-    height: 45px;
-    left: 473px;
-    top: 1568px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 45px;
-    color: #000000;
-}
-
-.youtubeIcon {
-    position: absolute;
-    left: 43.34%;
-    right: 54.75%;
-    top: 78.95%;
-    bottom: 19.75%;
-    background: #182B49;
-}
-
-.youTubeText {
-    position: absolute;
-    width: 172px;
-    height: 45px;
-    left: 808px;
-    top: 1568px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 45px;
-    color: #000000;
-}
-
-.mailIcon {
-    position: absolute;
-    left: 62.5%;
-    right: 35.82%;
-    top: 79%;
-    bottom: 19.85%;
-    background: #182B49;
-}
-
-.mailText {
-    position: absolute;
-    width: 115px;
-    height: 45px;
-    left: 1135px;
-    top: 1568px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 45px;
-    color: #000000;
-}
-
-.backgroundImage1 {
-    position: absolute;
-    width: 298px;
-    height: 482px;
-    left: 1450px;
-    top: 470px;
-    background: url("/assets/images/contact/BlackEarthHourPoster.png");
-}
-
-.backgroundImage2 {
-    position: absolute;
-    width: 298px;
-    height: 482px;
-    left: 298px;
-    top: 1794px;
-    background: url("/assets/images/contact/BlackEarthHourPoster.png");
-    transform: rotate(-180deg);
 }

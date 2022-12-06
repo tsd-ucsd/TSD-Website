@@ -17,34 +17,22 @@
 }
 
 :root {
-  --bs-blue: #286297;
+  --bs-blue: #182b49;
   --bs-yellow: #ffcd00;
-  --bs-primary: #286297;
+  --bs-primary: #182b49;
   --bs-secondary: #ffcd00;
   --bs-success: #769448;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
-  --bs-primary-rgb: 13, 110, 253;
-  --bs-secondary-rgb: 108, 117, 125;
-  --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-nav-link-color: #fff;
   --bs-font-sans-serif: 'Montserrat';
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: 'Montserrat';
-  --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
 }
 
 .bg-primary {
-  background-color: #286297 !important;
+  background-color: #182b49 !important;
 }
 
 .btn-xl {
@@ -70,4 +58,9 @@
 .form-floating label {
   font-size: 1.5rem;
   color: #6c757d;
+}
+
+.collapse.navbar-collapse,
+.nav-link {
+  color: #fff;
 }

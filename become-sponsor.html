@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -16,42 +16,51 @@
         <script src="js/components/app-header.js" type="module"></script>
         <script src="js/components/app-footer.js" type="module"></script>
     </head>
+
     <body id="page-top">
         <app-header></app-header>
 
-        <div class="sponsorUsImage"></div>
-        <div class="sponsorUs">
-            <h1>Become A Sponsor</h1>
+        <div class="page-hero-image about-hero">
+            <div class="page-hero-text">
+                <h1>Become A Sponsor</h1>
+            </div>
         </div>
-        
+
         <div class="page-content">
-            <h2 class ="helpUs">Help us support a growing population in the face of climate change</h2>
-                <p class="partnersWelcome">
-                    Partners are always welcome and appreciated to help us achieve our goal of developing affordable and sustainable housing.
-                </p>
-    
+            <div class ="about-subheader">
+                <h2>Help us support a growing population in the face of climate change</h2>
+                <p>Partners are always welcome and appreciated to help us achieve our goal of developing affordable and sustainable housing.</p>
+            </div>
 
-            <div class="backgroundImage1"></div>
-            
+            <br>
+
             <form>
-                <h2><label for="full-name" class="name">Full Name</label></h2>
-                <input type="text" id="full-name" name="full-name" value="Your Name" class="nameBox">
-    
-                <h2><label for="email" class="email">Email</label></h2>
-                <input type="text" id="email" name="email" value="Your Email" class="emailBox">
-    
-                <br>
-    
-                <h2><label for="subject" class="subject">Subject</label></h2>
-                <input type="text" id="subject" name="subject" value="Type Message Here..." class="subjectBox">
-    
-        
+                <div class="wrapper">
+                    <div class="form-row">
+                        <h2><label for="name" class="flex-items name">Full Name</label></h2>
+                        <h2><label for="email" class="flex-items">Email</label></h2>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" id="name" value="Your Name" class="flex-input  nameBox">
+                        <input type="text" id="email" value="Your Email" class="flex-input">
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <h2><label for="subject">Let us know why you would like to sponsor us</label></h2>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <textarea name="typeMessage" id="subject" class="flex-input" cols="70" rows="10">Type message here.</textarea>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <h3><button class="contactButtonRadius">Contact Us</button></h3>
+                    </div>
+                </div>
             </form>
-        
-            <div class="backgroundImage2"></div>
 
-            <h3><button class="contactButton contactButtonRadius">Contact Us</button></h3>
-        </div>
+            <br>
+            <br>
 
         <app-footer></app-footer>
     </body>
