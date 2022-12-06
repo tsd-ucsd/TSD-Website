@@ -1,0 +1,116 @@
+.about-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/become-sponsor/Rectangle112.png");
+}
+
+.about-subheader {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;   
+  color: #182B49;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #182B49;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 45px;
+  color: #868686;
+}
+
+.form-row {
+  display: flex;
+  align-items: left;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.flex-items {
+  padding-right: 50px;
+  width: 563px;
+}
+
+.flex-input {
+  background: #FFFFFF;
+  box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 45px;
+  color: #868686;
+}
+
+.name {
+  width: 450px;
+}
+
+.nameBox {
+  margin-right: 220px;
+}
+
+.contactButtonRadius {
+  align-items: right;
+  box-sizing: border-box;
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border: 5px solid #182B49;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+
+@media (max-width: 428px) {
+  .h1 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 44px;
+  }
+  .h2 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+  }
+  .h3 {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+  }
+}

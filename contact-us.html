@@ -16,46 +16,89 @@
         <script src="js/components/app-header.js" type="module"></script>
         <script src="js/components/app-footer.js" type="module"></script>
     </head>
+
     <body id="page-top">
         <app-header></app-header>
 
-        <header>
-            <div class="heading">
-                <h1 class="page-section-heading text-center text-secondary mb-0">Contact Us</h1>
-                <br/>
-                <div class="text-center">
-                    <p class="lead"> Interested in being a member? Interested in being a sponsor? Interested in being a partner? Send us a message below!</p>
+        <div class="page-hero-image about-hero">
+            <div class="page-hero-text">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+
+        <div class="page-content">
+            <div class ="about-subheader">
+                <h2>We would love to hear from you</h2>
+                <p>Have a question? Want to get in touch? Fill out the contact form and we'll do our best to get back to you in a timely manner.</p>
+            </div>
+
+            <br>
+
+            <form>
+                <div class="wrapper">
+                    <div class="form-row">
+                        <h2><label for="name" class="flex-items name">Full Name</label></h2>
+                        <h2><label for="email" class="flex-items">Email</label></h2>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" id="name" value="Your Name" class="flex-input  nameBox">
+                        <input type="text" id="email" value="Your Email" class="flex-input">
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <h2><label for="subject">Subject</label></h2>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" id="subject" value="Type Your Subject" class="flex-input">
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <textarea name="typeMessage" class="flex-input" cols="70" rows="10">Type message here.</textarea>
+                    </div>
+                    <br>
+                    <div class="form-row">
+                        <h3><button class="contactButtonRadius">Contact Us</button></h3>
+                    </div>
+                </div>
+            </form>
+
+            <br>
+
+            <div>
+                <h3 class="contact-info-header">Contact Information & Social Medias</h3>
+            </div>
+
+            <br>
+
+            <div class="row align-items-center">
+                <div class="col-3 mx-auto p-0 text-center">
+                  <a href="https://www.instagram.com/tsd_ucsd" target="_blank">
+                    <img src="/assets/images/contact/insta.png" />
+                    <span>tsd_ucsd</span>
+                  </a>
+                </div> 
+                <div class="col-3 p-0 mx-auto">
+                  <a href="https://www.linkedin.com/company/triton-solar-decathlon" target="_blank">
+                    <img src="/assets/images/contact/linkedin.png" />
+                    <span>triton-solar-decathlon</span>
+                  </a>
+                </div>
+                <div class="col-3 p-0 text-center">
+                  <img src="/assets/images/contact/youtube.png" />
+                  <span>triton solar decathlon</span>
+                </div>
+                <div class="col-3 p-0 text-center">
+                  <a href="mailto:test@test.com" target="_blank">
+                    <img src="/assets/images/contact/email.png" />
+                    <span>tsd_ucsd</span>
+                  </a>
                 </div>
             </div>
-        </header>
 
-        <body>
-            <section class="map">
-                <div class="row">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6vPDDsRwNhOVcSebnFV8XoLq3XxXs8mwzJg2keTovzySLqQ/viewform?embedded=true" width="640" height="800" frameborder="0" marginheight="5px" marginwidth="0">Loading…</iframe>
-                </div>
-            </section>
-            
-            <section class="locationBox">
-                <p class="text-center text-uppercase tiny-font"> Our Location </p>
-                <h2 class="text-center text-secondary mb-0">
-                        UCSD
-                        <br>
-                        9500 Gilman Dr
-                        <br>
-                        La Jolla, CA 92093
-                </h2>
-                <!-- this doesnt work
-                    You should be able to click on the email to send an email -->
-                <p class="text-center tiny-font" href="mailto:tsd@ucsd.edu">tsd@ucsd.edu</p>
-            </section>
-        
-            <section class="map">
-                <div class="row">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.684715029564!2d-117.23620218494666!3d32.88006038094109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc06c4414caf4f%3A0xefb6aafc89913ea7!2sUniversity%20of%20California%20San%20Diego!5e0!3m2!1sen!2sus!4v1661988474091!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section>
-        </body>
+            <br>
+            <br>
+            <br>
+            <br>
 
         <app-footer></app-footer>
     </body>
